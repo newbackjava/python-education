@@ -25,11 +25,13 @@ style: |
     font-family: 'Consolas', monospace;
   }
   pre {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #f8f9fa;
+    color: #2c3e50;
     padding: 20px;
     border-radius: 8px;
     overflow-x: auto;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   .highlight {
     background-color: #fff3cd;
