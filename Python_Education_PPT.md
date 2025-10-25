@@ -7,37 +7,68 @@ color: #333
 style: |
   section {
     font-family: 'Noto Sans KR', sans-serif;
-    padding: 40px;
+    padding: 20px;
+    font-size: 0.9em;
   }
   h1 {
     color: #2c3e50;
-    border-bottom: 3px solid #3498db;
-    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    font-size: 1.8em;
+    margin-bottom: 15px;
   }
   h2 {
     color: #34495e;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+  }
+  h3 {
+    color: #34495e;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+  }
+  p {
+    margin: 8px 0;
+    line-height: 1.4;
+  }
+  ul, ol {
+    margin: 8px 0;
+    padding-left: 20px;
+  }
+  li {
+    margin: 4px 0;
+    line-height: 1.3;
   }
   code {
     background-color: #f1f2f6;
-    padding: 2px 6px;
-    border-radius: 4px;
+    padding: 1px 4px;
+    border-radius: 3px;
     font-family: 'Consolas', monospace;
+    font-size: 0.85em;
   }
   pre {
     background-color: #f8f9fa;
     color: #2c3e50;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 12px;
+    border-radius: 6px;
     overflow-x: auto;
     border: 1px solid #dee2e6;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    font-size: 0.8em;
+    line-height: 1.3;
+    margin: 10px 0;
   }
   .highlight {
     background-color: #fff3cd;
-    padding: 15px;
-    border-left: 4px solid #ffc107;
-    margin: 20px 0;
+    padding: 10px;
+    border-left: 3px solid #ffc107;
+    margin: 10px 0;
+    font-size: 0.9em;
+  }
+  strong {
+    font-weight: 600;
   }
 ---
 
